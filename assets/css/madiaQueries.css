@@ -1,0 +1,42 @@
+@media screen and (max-width: 500px)
+{
+    .img_name
+    {
+        display: block;
+        margin-bottom: 38px;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .main_wrapper, .header_wrapper, .footer_wrapper
+    {
+    padding-inline: 4%;
+    }
+
+    .footer_text
+    {
+        flex-direction: column;
+    }
+
+    .footer_text div
+    {
+        flex-basis: 118px;
+    }
+
+    .img_container:hover .overlay
+    {
+        opacity: 0;
+    }
+
+}
+
+@media screen and (max-width: 1700px) 
+{
+    
+    .gallery_wrapper
+    {
+        grid-template-columns: repeat(auto-fill, minmax(348px, 1fr));
+    } 
+}
