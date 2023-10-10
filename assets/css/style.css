@@ -124,6 +124,7 @@ body
     margin-bottom: 58px;
     font-size: var(--headline-font-size);
     font-family: "roboto-bd";
+    text-transform: uppercase;
 }
 
 .hero_body p
