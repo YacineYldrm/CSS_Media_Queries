@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: "roboto-bd";
-    src: url(./../font/Roboto-Bold.ttf);
+    font-family: "roboto-md";
+    src: url(./../font/Roboto-Medium.ttf);
 }
 
 *
@@ -123,7 +123,7 @@ body
 {
     margin-bottom: 58px;
     font-size: var(--headline-font-size);
-    font-family: "roboto-bd";
+    font-family: "roboto-md";
     text-transform: uppercase;
 }
 
@@ -225,7 +225,7 @@ body
 .footer_wrapper h2
 {
     font-size: var(--headline-font-size);
-    font-family: "roboto-bd";
+    font-family: "roboto-md";
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 32px;
